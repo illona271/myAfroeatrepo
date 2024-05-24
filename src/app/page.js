@@ -1,7 +1,10 @@
-const Home = () => (
-  <div>
-    <h1> Hello tailwind ! </h1>
-  </div>
+import 'tailwindcss/tailwind.css';
 
-);
-export default Home;
+function mynextapp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+  
+}
+
+
+  
+  export default mynextapp;
